@@ -1,9 +1,9 @@
 package com.nassau.leitoris.repositories;
 
-import com.nassau.leitoris.models.BookModel;
+import com.nassau.leitoris.models.UsuarioModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface BookRepository extends JpaRepository<BookModel, Long> {
+public interface UsuarioRepository extends JpaRepository<UsuarioModel, Long> {
 }
